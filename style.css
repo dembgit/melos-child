@@ -13,3 +13,90 @@
  Template:     melos
  Version:      1.0.0
 */
+
+
+/* Global Styling */
+/* Global Styling */
+/* Global Styling */
+
+
+/* Font Styling på hele siden */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Arvo', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+/* Text Decoration på alle links */
+
+#content a {
+    text-decoration: none;
+}
+
+/* Global Header Styling */
+/* Global Header Styling */
+/* Global Header Styling */
+
+
+/* Header Menu Highlighting */
+#header .menu > li.menu-hover > a, #header .menu > li.current_page_item > a, #header .menu > li.current-menu-item > a, #header .menu > li.current-menu-ancestor > a, #header .menu > li > a:hover, #header-sticky .menu > li.menu-hover > a, #header-sticky .menu > li.current_page_item > a, #header-sticky .menu > li.current-menu-item > a, #header-sticky .menu > li.current-menu-ancestor > a, #header-sticky .menu > li > a:hover {
+    background: #A03F40;
+}
+
+#header .header-links .sub-menu a:hover, #header .header-links .sub-menu .current-menu-item a, #header-sticky .header-links .sub-menu a:hover, #header-sticky .header-links .sub-menu .current-menu-item a {
+    color: #A03F40;
+}
+
+/* Forside Content Styling */
+/* Forside Content Styling */
+/* Forside Content Styling */
+
+/* Forside | Best Seller - Sale Mærkat */
+
+.wc-block-grid__product-onsale {
+    border:1px solid #A03F40;
+}
+
+.wc-block-grid__product-onsale span{
+    color:#A03F40;
+}
+
+/* Forside | Best Seller - Add to Cart knap */
+
+.wp-block-button__link {
+    background-color: #A03F40;
+}
+
+.wc-block-grid__product .wc-block-grid__product-title {
+    color: #000;
+}
+
+
+/* Global Footer Styling */
+/* Global Footer Styling */
+/* Global Footer Styling */
+
+/* Footer Menu Styling */
+
+#sub-footer .copyright {
+    display: none;
+}
+
+#sub-footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+#sub-footer a {
+    font-weight: bold;
+}
+
+#sub-footer a:hover {
+    color: rgb(150, 150, 150);
+}
