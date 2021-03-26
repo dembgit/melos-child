@@ -160,6 +160,20 @@ input[type=text], input[type=email], input[type=password], input[type=search], i
 }
 
 
+/* Om Os Styling */
+/* Om Os Styling */
+/* Om Os Styling */
+
+.has-text-align-center {
+    font-size: 18px;
+}
+
+.has-large-font-size {
+    border-bottom: 1px solid var(--brand-red);
+    text-align: center;
+}
+
+
 /* Global Footer Styling */
 /* Global Footer Styling */
 /* Global Footer Styling */
