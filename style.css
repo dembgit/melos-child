@@ -196,3 +196,46 @@ input[type=text], input[type=email], input[type=password], input[type=search], i
 #sub-footer a:hover {
     color: rgb(150, 150, 150);
 }
+
+
+/* Mobile Design */
+/* Mobile Design */
+/* Mobile Design */
+
+@media screen and (max-width: 401px) {
+
+/* Forside */
+
+#slider .rslides_tabs {
+    position: relative;
+    padding-top: 10px;
+}
+
+#slider .rslides_tabs li a:hover, #slider .rslides_tabs li.rslides_here a {
+    background-color: var(--brand-red);
+}
+
+#slider .featured-link a {
+    background-color: var(--brand-red);
+    border: solid 1px var(--brand-red);
+}
+
+#slider a.rslides_nav {
+    top: 37.5%;
+}
+
+#sub-footer {
+    display: none;
+}
+
+/* Plakat Side */
+
+#header-core {
+    margin-bottom: 20px;
+}
+
+#intro #intro-core {
+    margin: 0 !important;
+}
+    
+}
